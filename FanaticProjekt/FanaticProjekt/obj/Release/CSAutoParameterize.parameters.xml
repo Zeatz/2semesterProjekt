@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DbModel-Web.config Connection String" description="DbModel Connection String used in web.config by the application to access the database." defaultValue="data source=projektdatabasse.database.windows.net;initial catalog=projektdatabasse;persist security info=True;user id=niko7361;password=Nikolaj1234;multipleactiveresultsets=True;application name=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Nikolaj\ Bang\\Desktop\\løste\ c\#\ opgaver\ og\ andet\ skolesjav\\projektmappen\\FanaticProjekt\\FanaticProjekt\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DbModel']/@connectionString" />
+  </parameter>
+</parameters>

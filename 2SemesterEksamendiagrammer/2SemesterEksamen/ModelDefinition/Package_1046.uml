@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="a2234708-8503-431f-a20f-dd4c5f857f95"
+  name="Database tillæg" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="6a9b2a18-510d-4012-8d86-4d456933a8fb"
+        name="IRTyper"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="7ad3f7f6-a7ba-4a30-9efa-7822301d0cdf"
+            name="ID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="6fae13b7-a18b-4a1d-8528-e80d0ee6f05b"
+                LastKnownName="int (PK)"
+                LastKnownLocation="Package_1046.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="54b8868d-7483-44d7-9118-cea76a1b9af4"
+            name="Type"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="8f33e4e1-ac95-4f12-8f8d-2385561613a8"
+                LastKnownName="nvarchar(100)"
+                LastKnownLocation="Package_1048.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a302303c-6802-4ae9-839f-f9d2dca5c29b"
+        name="UserStatistics"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="9cf5222b-2073-436d-9b37-dd27fb97c76c"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName="FK_TYPE_ID"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="6a9b2a18-510d-4012-8d86-4d456933a8fb"
+              LastKnownName="IRTyper"
+              LastKnownLocation="Package_1046.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="08115247-aedc-4ba5-8f62-1188a767c9bf"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="67124dfb-2351-4781-a1d9-3cb02935d9c8"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="8b7ec81c-6901-488d-be7a-c6839269fe76"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="748cad7d-7146-4b57-8182-6e8943ece130"
+                  name="FK_TYPE_ID"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1a186644-5f08-43a5-9899-4a9c08c0a87a"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName="FK_USER_NAME_ID"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="de0f802c-4ffb-4402-be1f-a9f4aa2d60ed"
+              LastKnownName="UsersTable"
+              LastKnownLocation="Package_1048.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d4ad6012-443e-48ca-acff-88c57e50e3d6"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="675b631a-bfaa-42dc-ba1f-dd4628757f4c"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4052a611-5569-4540-9317-fe22a6b3a0aa"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f60e5dcb-0a8e-412f-8223-8a634008c764"
+                  name="FK_USER_NAME_ID"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="d38d36cc-7713-48f9-aec3-6c6da603ed4e"
+            name="ID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="6fae13b7-a18b-4a1d-8528-e80d0ee6f05b"
+                LastKnownName="int (PK)"
+                LastKnownLocation="Package_1046.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ce2b70bf-1476-425b-b38d-88dca2995446"
+            name="DATE"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="05def3fe-5cb0-4e94-bf79-9eac4697b701"
+                LastKnownName="datetime"
+                LastKnownLocation="Package_1048.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c6cf1da6-38fc-4810-94cf-08f9ee11ddf3"
+            name="USER_NAME"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="fa9c48ba-62b8-4efc-b634-5602a6fe8af9"
+                LastKnownName="int (FK)"
+                LastKnownLocation="Package_1046.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8710a177-a0a9-4952-8b4d-f8610f0d4946"
+            name="IR_TYPE"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="fa9c48ba-62b8-4efc-b634-5602a6fe8af9"
+                LastKnownName="int (FK)"
+                LastKnownLocation="Package_1046.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="6fae13b7-a18b-4a1d-8528-e80d0ee6f05b"
+        name="int (PK)" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="fa9c48ba-62b8-4efc-b634-5602a6fe8af9"
+        name="int (FK)" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ed0077ec-afef-4aec-a50e-6f03e142f06c"
+        name="StatsJoinedIr &lt;&lt;View&gt;&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="ffbac585-24c4-40e4-a772-ec5fb67de43f"
+            isDerived="false"
+            sourceEndRoleName="StatsJoinedIr &lt;&lt;View&gt;&gt;"
+            targetEndRoleName="IRTyper"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="6a9b2a18-510d-4012-8d86-4d456933a8fb"
+              LastKnownName="IRTyper"
+              LastKnownLocation="Package_1046.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="167a45fc-f535-4b05-9009-ab0615e40281"
+                  name="StatsJoinedIr &lt;&lt;View&gt;&gt;"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d0bedf1d-f8d4-467c-b90b-bc3f740972cf"
+                  name="IRTyper"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="20235b51-38fd-43d0-90f1-52dd183aaa94"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="9e42da8e-1727-4bc1-b46e-38e1fe1ad8f6"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b02af96c-5168-47db-9bef-56026820ddbf"
+            isDerived="false"
+            sourceEndRoleName="StatsJoinedIr &lt;&lt;View&gt;&gt;"
+            targetEndRoleName="UserStatistics"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="a302303c-6802-4ae9-839f-f9d2dca5c29b"
+              LastKnownName="UserStatistics"
+              LastKnownLocation="Package_1046.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fc0a5382-0a81-4ec0-96b8-bd56d990c436"
+                  name="StatsJoinedIr &lt;&lt;View&gt;&gt;"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="43a56e25-0686-44ae-873a-9a538ab02fe3"
+                  name="UserStatistics"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="66449284-a79a-4c51-a784-49e13c76f0df"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b4af0da3-48ad-404e-9e2c-8bf20ef71126"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="9e465b04-d066-4683-bc4a-de09391fa97b"
+            name="Type"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="8f33e4e1-ac95-4f12-8f8d-2385561613a8"
+                LastKnownName="nvarchar(100)"
+                LastKnownLocation="Package_1048.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9d4719e8-c27f-4727-88d3-3263f252190f"
+            name="IR_TYPE"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="cbde5c8c-48d6-44c8-ac83-8c0c9f2c22c6"
+                LastKnownName="int"
+                LastKnownLocation="Package_1048.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="98e10f77-a9f5-4f6d-bcd2-32b4e580b4a0"
+            name="DATE"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="05def3fe-5cb0-4e94-bf79-9eac4697b701"
+                LastKnownName="datetime"
+                LastKnownLocation="Package_1048.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="994df920-63cf-4479-b719-51f73c11f882"
+            name="USER_NAME"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="a8f8ae9c-d89e-4adb-88dd-45f4ffaaba3e"
+        name="nvarchar" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="8e717a33-8d5b-4943-9dd8-e506d5c0e6a7"
+        name="Enumeration1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

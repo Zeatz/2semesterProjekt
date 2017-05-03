@@ -1,0 +1,36 @@
+CREATE TABLE [dbo].[UsersTable] (
+    [ID]                  INT            IDENTITY (1, 1) NOT NULL,
+    [user_login]          NVARCHAR (60)  DEFAULT ('') NOT NULL,
+    [user_pass]           NVARCHAR (255) DEFAULT ('') NOT NULL,
+    [user_nicename]       NVARCHAR (50)  DEFAULT ('') NOT NULL,
+    [user_email]          NVARCHAR (100) DEFAULT ('') NOT NULL,
+    [user_url]            NVARCHAR (100) DEFAULT ('') NOT NULL,
+    [user_registered]     DATETIME       DEFAULT ('getdate()') NOT NULL,
+    [user_activation_key] NVARCHAR (255) DEFAULT ('') NOT NULL,
+    [user_status]         INT            DEFAULT ('0') NOT NULL,
+    [display_name]        NVARCHAR (250) DEFAULT ('') NOT NULL,
+    PRIMARY KEY CLUSTERED ([ID] ASC)
+);
+
+
+
+CREATE TABLE [dbo].[IRTyper] (
+    [ID]   INT            IDENTITY (1, 1) NOT NULL,
+    [TYPE] NVARCHAR (100) NULL,
+    PRIMARY KEY CLUSTERED ([ID] ASC)
+);
+
+
+CREATE TABLE [dbo].[UserStatistics] (
+    [ID]        INT      IDENTITY (1, 1) NOT NULL,
+    [DATE]      DATETIME NOT NULL,
+    [USER_NAME] INT      NOT NULL,
+    [IR_TYPE]   INT      NOT NULL,
+    PRIMARY KEY CLUSTERED ([ID] ASC),
+    FOREIGN KEY ([IR_TYPE]) REFERENCES [dbo].[IRTyper] ([ID]),
+    FOREIGN KEY ([USER_NAME]) REFERENCES [dbo].[UsersTable] ([ID])
+);
+
+CREATE VIEW [dbo].[StatsJoinedIrs]
+	AS SELECT DATE, TYPE, IR_TYPE, USER_NAME 
+	FROM [UserStatistics] join [IRTyper] on IRTyper.ID = IR_TYPE;

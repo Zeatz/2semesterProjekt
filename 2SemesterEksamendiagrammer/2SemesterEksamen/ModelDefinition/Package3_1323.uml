@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="ee60781c-7dc8-4598-af65-701a400aa780"
+  name="Persistency" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="1554d913-34a0-4237-9fe8-84133efa6fd8"
+        name="SmartClient"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="0ee42a01-7e05-4b92-9051-0309c9978ad0"
+            name="TimeoutTime"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="cbde5c8c-48d6-44c8-ac83-8c0c9f2c22c6"
+                LastKnownName="int"
+                LastKnownLocation="Package_1048.uml" />
+            </type_NamedElement>
+            <defaultValue>
+              <literalString
+                Id="2d4c78c1-9ad1-46be-964e-52f51aa74293"
+                name="DefaultValue"
+                value="10000" />
+            </defaultValue>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5b2df9cf-bb92-42fc-9e29-22028ba0600c"
+            name="GetHandler"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="165f0d0d-3681-451a-94ea-fa3850d689c6"
+                  name="bool creds"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="5451623b-3338-4d30-b783-47774c76a251"
+                      name="DefaultValue"
+                      value="true" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f2c315ed-494c-4c3a-9f97-5a5db32ef5cf"
+                  name="string userName"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="4714774c-7c1c-4c66-be80-58d8ef0778ff"
+                      name="DefaultValue"
+                      value="null" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b302e487-8ac1-47df-9383-957c3dcaf890"
+                  name="string password = null)"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="e02da127-018c-464c-b50a-ea8963b1aeca"
+                      LastKnownName="HttpClientHandler("
+                      LastKnownLocation="Package3_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="da87c77d-b9c3-4a93-8d60-1a982607d658"
+            name="SetClientSettings"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="10e4f400-8539-4032-830d-7c97b3415955"
+                  name="HttpClient client"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="99a963e0-1d27-4709-83d9-35fbd83fb39e"
+                  name="string baseUri"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="889916b7-4c7f-412f-a608-9b5f8478d1d7"
+                  name="bool setJson"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="c201f6a2-4b85-46eb-a984-ba91bdeec0da"
+                      name="DefaultValue"
+                      value="true" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="78617f84-032f-4b4b-ade5-df84aa3cd4cd"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="1a9388ec-d71e-4fbb-b987-075fadddc91f"
+                      LastKnownName="void"
+                      LastKnownLocation="Package_1328.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="97e7de0b-a305-4c42-ae53-00f0d237d0d4"
+            name="Post&lt;T&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d2b0e377-2025-4449-b3c6-d3b7de87de74"
+                  name="string baseUri"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b0e8c450-1fe0-4047-8f78-26fe987a1d56"
+                  name="string apiRoute"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e955e40b-f2ce-4f53-9130-a6bd8431115b"
+                  name="T obj"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a1c5ee21-5168-48d0-b048-f1cf00b4603e"
+                  name="bool setJson"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="c3efd8b3-7bb2-4419-ad82-d92802051697"
+                      name="DefaultValue"
+                      value="true" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="349c422e-31a7-43af-9af3-ae37020744a0"
+                  name="bool creds"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="3e8e0f8e-4a6c-4a8b-8b7b-7a5566a3c4b3"
+                      name="DefaultValue"
+                      value="true" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="73f4c76b-6b96-44ed-9233-25b49e265231"
+                  name="string userNameCred"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="95ab5459-6738-48a4-ab74-829a42c7ad20"
+                      name="DefaultValue"
+                      value="null" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="36a722d0-8c4a-4eff-85ea-04bf1cad2b48"
+                  name="string passwordCred"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="d19ec65e-1d9c-4843-bb26-d5104b27f0d2"
+                      name="DefaultValue"
+                      value="null" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f9d9ccec-bd49-492e-a361-4355fb9671a4"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="cb12087b-5878-43d3-a190-4cf1cbd6f51e"
+                      LastKnownName="Task&lt;HttpResponseMessage&gt;"
+                      LastKnownLocation="Package3_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="06b54e35-516a-4cc9-b235-c8bcf99943f7"
+            name="Update&lt;T&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="16ecd6aa-4be8-405f-8d14-7c33835c140a"
+                  name="string baseUri"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5a0388e8-c94d-414e-afba-e9ad485d84b6"
+                  name="string apiRoute"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="258a8bb9-edf0-4a66-a3a2-ac2d8de45c21"
+                  name="T objToUpdate"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aa23c7a5-f715-4c95-b862-20d98634f984"
+                  name="int? num"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="2aa8da8a-37ca-428e-af2f-8312c20231d0"
+                      name="DefaultValue"
+                      value="null" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="34304f31-4d19-47bc-b70e-f3ebc3f65740"
+                  name="bool setJson"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="de021229-6777-4bf7-8618-e23858d845a0"
+                      name="DefaultValue"
+                      value="true" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="da9b142f-2b93-48a0-a821-e16a4c04d943"
+                  name="bool creds"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="66e86811-5dc8-40cb-aff9-bf84339f7524"
+                      name="DefaultValue"
+                      value="true" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ee6f450f-1d89-4d5a-a301-75ae9a8862b7"
+                  name="string userNameCred"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="9cf5f6eb-6f69-4678-8de5-ba656f252859"
+                      name="DefaultValue"
+                      value="null" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a07b45eb-e830-41b8-aec7-dfc172cb417d"
+                  name="string passwordCred"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="5dc5f65b-4a72-4021-b3f0-f706dae69bbb"
+                      name="DefaultValue"
+                      value="null" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2342b114-bb63-4d94-9453-abf88dff44e8"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="cb12087b-5878-43d3-a190-4cf1cbd6f51e"
+                      LastKnownName="Task&lt;HttpResponseMessage&gt;"
+                      LastKnownLocation="Package3_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="88f3ca00-1352-47dd-93dd-dd17e77fb0f4"
+            name="Delete"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="beefc625-215a-4143-b3a1-5dbe34a25430"
+                  name="string baseUri"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="56ae79b8-f05d-4739-97e4-d0b066a29d5f"
+                  name="string apiRoute"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="df0a0616-8e1f-4fc0-84c1-88ddab9d272c"
+                  name="int? numToDelete"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="81bb1d9d-37ca-48e8-9c69-3a3d94717aa7"
+                      name="DefaultValue"
+                      value="null" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="37440810-9117-4d6c-9105-316d2b257ce5"
+                  name="bool setJson"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="1084620d-872c-4d29-ba40-9b219520a419"
+                      name="DefaultValue"
+                      value="true" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="19f9da97-27fc-45cd-a97e-cd25e155b222"
+                  name="bool creds"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="b37bf73c-4e33-4c8e-b517-693d11802a79"
+                      name="DefaultValue"
+                      value="true" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="114f6eed-7d03-4779-8b9b-b8e6f019d030"
+                  name="string userNameCred"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="34ead747-ec5d-4780-aaf2-2aa6c4214645"
+                      name="DefaultValue"
+                      value="null" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="246e9401-2fb1-4b6a-98c2-5f1f2716b7fc"
+                  name="string passwordCred"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="51d0784f-ae29-4fe0-ae76-c424c272485b"
+                      name="DefaultValue"
+                      value="null" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d8b7eb4e-3f14-4281-8140-8149d875515c"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="cb12087b-5878-43d3-a190-4cf1cbd6f51e"
+                      LastKnownName="Task&lt;HttpResponseMessage&gt;"
+                      LastKnownLocation="Package3_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e2c974a0-d3c7-45df-823d-bf2b958e6896"
+            name="Get&lt;T&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="64754414-793d-40f2-950a-d80f1587646c"
+                  name="string baseUri"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="04b7fa32-9e75-42eb-aabd-6dfc4b2dc41c"
+                  name="string apiRoute"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="60af23f6-ceb9-42aa-9530-ae526598012c"
+                  name="bool setJson"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="bcf076f6-c5e8-40d3-a7dd-f5ca6510fe81"
+                      name="DefaultValue"
+                      value="true" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5e26f8e5-3383-4db6-b6c8-f23500ed2953"
+                  name="bool creds"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="5f9d79a8-798c-4efd-b1ec-2192c1925fb7"
+                      name="DefaultValue"
+                      value="true" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="910a897d-8453-4621-9b18-cec9f6905084"
+                  name="string userNameCred"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="bb612d89-b428-44a1-b7a4-a2e46050293b"
+                      name="DefaultValue"
+                      value="null" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="374fb9cb-b426-4d89-b12a-4117728bc22c"
+                  name="string passwordCred"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="036274b9-c72f-409b-8184-a6e88bae92de"
+                      name="DefaultValue"
+                      value="null" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5ff68ec5-1391-4460-af75-953d7407f08d"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="7ff92cb5-1444-417c-86cc-56205b2248ac"
+                      LastKnownName="Task&lt;List&lt;T&gt;&gt;"
+                      LastKnownLocation="Package3_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1e0ea285-25dd-45f3-8fa9-a18d525996ce"
+            name="Get&lt;T&gt;"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5dac7e3f-93bd-407c-bcca-42e031657187"
+                  name="string baseUri"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="20f0ec81-5bcf-410d-9d6a-453bd6f42092"
+                  name="string apiRoute"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="24f7e7cc-71b9-45f0-9ae1-69267dfb8bf1"
+                  name="int num"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5dec75a1-3773-4abf-b5e5-69e92660c849"
+                  name="bool setJson"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="c70a4718-398d-454c-a6e0-3763109ba6af"
+                      name="DefaultValue"
+                      value="true" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b6421479-da33-455f-9b14-05e5052308af"
+                  name="bool creds"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="4b2fd8c8-56d0-4524-961d-87c379c4b338"
+                      name="DefaultValue"
+                      value="true" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="05500711-8edd-48d6-9639-9ec6f08acd38"
+                  name="string userNameCred"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="4add016d-60d6-41f1-8fdd-7cc1690e4e7b"
+                      name="DefaultValue"
+                      value="null" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e2d3ff88-7d1d-4457-bcba-3f86a0848447"
+                  name="string passwordCred"
+                  direction="In"
+                  isUnique="false">
+                  <defaultValue>
+                    <literalString
+                      Id="43749351-2484-4a5d-8dcf-fec1e165a5a4"
+                      name="DefaultValue"
+                      value="null" />
+                  </defaultValue>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="16dfd741-18c4-42f5-ba5e-78ee342f232f"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="95865899-ae66-432f-80a0-d56c54def2a3"
+                      LastKnownName="Task&lt;object&gt;"
+                      LastKnownLocation="Package3_1323.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e206a731-97ca-4486-894b-3a74aee0716e"
+            name="CheckForInternetConnection"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bc26c1c2-b067-4b4a-bc9a-0ef679841d84"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="05ced0c3-5543-4e0e-81b6-6a3f8e5f5ed7"
+                      LastKnownName="bool"
+                      LastKnownLocation="Package_1254.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="e02da127-018c-464c-b50a-ea8963b1aeca"
+        name="HttpClientHandler(" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="cb12087b-5878-43d3-a190-4cf1cbd6f51e"
+        name="Task&lt;HttpResponseMessage&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="7ff92cb5-1444-417c-86cc-56205b2248ac"
+        name="Task&lt;List&lt;T&gt;&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="95865899-ae66-432f-80a0-d56c54def2a3"
+        name="Task&lt;object&gt;" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

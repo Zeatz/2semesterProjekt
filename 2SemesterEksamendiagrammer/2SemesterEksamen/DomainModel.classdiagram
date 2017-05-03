@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="3daf32e1-c299-425f-b7bf-5c3bcbfbdc47" name="DomainModel" linkedPackageId="b67a5a9f-a912-4938-b37d-c54bc8ec1ef8" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4e52dbf3-b071-41f5-bbe1-c599f1e48e8f" name="Fanatic" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9ff571e3-fd9d-40fb-a8ab-f21cc6c72d6e" />
+        <targetEnds>
+          <association Id="5465d9c2-cfa3-4869-83ee-1740e05b5d50" isDerived="false" sourceEndRoleName="Fanatic" targetEndRoleName="Personale" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2f566b7f-d59c-49dd-8647-3aa402a5c8fd" LastKnownName="Personale" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="71172b5b-0da3-4d64-aff5-5a94504ff67a" name="Fanatic" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="74d97123-94d5-4a0e-8793-c26779f12706" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="122c3294-68e2-428b-8cdd-0a44d450264f" name="Personale" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="bf8f9ae2-7899-47df-85c1-1af3068d3e5e" name="Lower" value="1">
+                      <elementDefinition Id="c2309e9e-d220-457f-92f1-02aadba53cfc" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="6866f0f2-5405-4665-99bc-0c2ce0bebced" name="Upper" value="*">
+                      <elementDefinition Id="cfd1e2b2-0583-44c3-b962-60f4a5277e24" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="853d9129-293c-4afe-9355-f11e5419c365" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="63f240b6-29c3-4794-9374-e7f0914ac181" />
+          </association>
+          <association Id="b6f2dc26-a5cc-469f-ac92-03b9527be4ae" isDerived="false" sourceEndRoleName="Fanatic" targetEndRoleName="KundeKatalog" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7b614f56-62c8-479a-b0e5-0197aa1bcbfe" LastKnownName="KundeKatalog" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="252dd9dd-2dfd-48c4-b81b-65bb66b44fcd" name="Fanatic" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="24409515-1cdb-4b72-a460-168e8b333c30" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="699b54f7-8924-45cc-9b51-96a4563be4e7" name="KundeKatalog" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="188f0e5b-2580-4003-b5d6-ba88bfa020f0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ba07bf01-f273-4df2-aba6-78cebe53717d" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="d0cf2f49-4b28-4ae3-ad3b-d74785fc3c58" name="Addresse" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e0950a09-1723-4122-b82a-44e7e3edfe9b" />
+          </property>
+          <property Id="5c91e69b-2190-4530-9ef5-f8c1a0da0362" name="Navn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="86bf9b45-ac39-4932-86d5-5aae479f4487" />
+          </property>
+          <property Id="d904cfe8-c347-4446-b1b5-cd1a5b465408" name="Ejer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7972bbb2-f97e-46ab-ac04-29ceeb719033" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2f566b7f-d59c-49dd-8647-3aa402a5c8fd" name="Personale" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4042d307-9868-49b1-b5cb-23017e572d8c" />
+        <ownedAttributesInternal>
+          <property Id="9c1cf924-1a00-451f-8864-14dd69ae3a88" name="Navn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9e78a31f-7409-40de-be82-f62d48082250" />
+          </property>
+          <property Id="2ded1e15-5958-4d3c-88db-bf8f0e5ab912" name="Addresse" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0b5aeadf-22d8-4f26-abbb-d96fb5a78645" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="abe3d214-9ff1-4869-8d04-9beeb1b392d9" name="Interesser" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cae1142d-eb6a-405c-b529-1ee06a4019a3" />
+        <ownedAttributesInternal>
+          <property Id="10585460-9716-430b-b9a9-1c973d613572" name="Kategori" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="529c4579-95bc-47b5-96d7-34d546be873e" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="19126961-fb9a-4ed7-8ae9-2c8e1fd696de" name="Kunder" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="62f334d5-c989-44da-b12c-9599c79d53e2" />
+        <targetEnds>
+          <association Id="baeeb08c-50cd-4190-b3e5-3cb2dfb6e563" isDerived="false" sourceEndRoleName="Kunder" targetEndRoleName="Interesser" isLeaf="false" isAbstract="false">
+            <classMoniker Id="abe3d214-9ff1-4869-8d04-9beeb1b392d9" LastKnownName="Interesser" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="20e3d785-4b20-445d-b4a3-97eaea65b387" name="Kunder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="d86092e4-5f88-42f1-9601-6579fefc375e" name="Lower" value="*">
+                      <elementDefinition Id="297871be-96ed-45a7-b05e-cbcfc85772ae" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="c08aee3d-66e2-48d1-bc9b-62f3366f7484" name="Upper" value="*">
+                      <elementDefinition Id="800eb028-df2f-4e54-b748-64c6a4dcf561" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="43ac31df-bbb0-43b4-8749-90693464eead" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="04edfb9e-fd69-4150-bad8-5e2e966b01cf" name="Interesser" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="6530f4f3-3ab0-4829-8cd0-4aa4e113c88a" name="Lower" value="0">
+                      <elementDefinition Id="971df230-536f-4a2c-ac7e-63cf71ec9e4b" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="534c413b-e44a-4090-96cf-9fec6df5bc87" name="Upper" value="*">
+                      <elementDefinition Id="f4ce128e-5ac2-4abc-a422-990d8ab4f9e9" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="55c84f4f-aec5-4873-af36-c701dab91f04" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="484dbaa5-75ca-4d80-8236-5ca2ef28a5db" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="f7d22bf8-d4df-4ec8-ae26-6cc62d78be37" name="Navn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="83332d6f-d8bb-41d5-a465-19c5ad607e0c" />
+          </property>
+          <property Id="a22f43cb-9f6d-43c9-8386-82c32bed8622" name="Email" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="75ae0256-991b-4f14-91ee-4cb18bddf9a7" />
+          </property>
+          <property Id="07a3a340-1768-4804-a914-ed1c310949a5" name="Tlf" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e010ce68-3cee-410b-8e75-fba10269e66c" />
+          </property>
+          <property Id="da5e9875-c621-432a-bdac-b85c14486ccd" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5224ee13-059b-44cd-9db3-92659e6f5ab1" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7b614f56-62c8-479a-b0e5-0197aa1bcbfe" name="KundeKatalog" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7f1d2e8b-a5e3-4b5e-b107-651d2c396416" />
+        <targetEnds>
+          <association Id="978a4a61-a8d9-4048-a0c7-8feb71d7e57e" isDerived="false" sourceEndRoleName="KundeKatalog" targetEndRoleName="Kunder" isLeaf="false" isAbstract="false">
+            <classMoniker Id="19126961-fb9a-4ed7-8ae9-2c8e1fd696de" LastKnownName="Kunder" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de962832-6cd5-4edd-90c8-5681f9de88e3" name="KundeKatalog" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1488cd45-d97e-44c0-870f-27520bff21d0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7e62fdf1-bf3f-433d-9932-1e7f03ed8d3f" name="Kunder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="4aa6b624-712f-4525-94d3-bf5f11936832" name="Lower" value="*">
+                      <elementDefinition Id="d834a297-9410-4a79-a0d3-99f26aa4e7a7" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="a003302e-a635-4d46-8490-9aaff761d459" name="Upper" value="*">
+                      <elementDefinition Id="dcde9ab3-b7bd-4a24-a32d-209af85745e7" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="15a7e047-6ba1-4a44-9bb3-4d6764374b4c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7a7d7855-3c99-4383-98d0-fb0bbcacc0a7" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="b67a5a9f-a912-4938-b37d-c54bc8ec1ef8" name="2SemesterEksamen">
+    <elementDefinition Id="b706a81c-dc28-4ae5-b68d-ab0b0c15a8d0" />
+    <profileInstances>
+      <packageHasProfileInstances Id="70733c1b-4c2c-499c-b1b9-b7bb77f02217">
+        <profileInstance Id="90ee6345-8e08-43a2-a1b7-83004c807568" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="35e16fd6-2e25-4603-9308-d86f2c82761f">
+        <profileInstance Id="e32ec999-ee2c-4646-982e-da939851ce95" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

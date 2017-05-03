@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="8719a27d-d617-4f2f-bfad-479cff0fac00" name="FanaticUceCaseDiagram" linkedPackageId="b74ed6ea-d25d-4792-a3a9-7be165afbeca" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="a41e429c-3c7a-4a26-9b71-f0153975ce10">
+      <profileInstance Id="066ebced-391b-48a9-86f7-ccf2c75c29d7" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="3754dff0-aaea-4b36-8b06-341162390010">
+      <profileInstance Id="54a8ea3d-787a-4573-8c32-55000d03706c" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="01813e92-10c9-44fe-8abc-ace6b3a93503" name="Fanatic" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3f1605af-4c06-4e85-a6e7-f77cd7e5664c" />
+        <targetEnds>
+          <association Id="b98fba9f-d9cd-4b63-810b-2998f4b0e995" isDerived="false" sourceEndRoleName="Fanatic" targetEndRoleName="Statestik" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6e8db232-c559-49a5-b126-9a9cd538d802" LastKnownName="Statestik" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dd721b29-421e-4249-b2bf-0692af213b51" name="Fanatic" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="87d64a97-fdfa-45d4-a866-e77a84ad18f1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a9d9d012-4b5f-4c92-985c-ac2282300489" name="Statestik" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="118b98ed-4cd4-4c9a-852d-94f5149050dc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="41bec257-ab78-49ce-8ce3-ce229d27d2d5" />
+          </association>
+          <association Id="b51b7779-adbe-4124-bae3-e4e71258c45d" isDerived="false" sourceEndRoleName="Fanatic" targetEndRoleName="Login" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="49f36da1-a4c6-4daa-b652-bdd3be181427" LastKnownName="Login" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7acea98c-f457-47e9-b755-2a45e8cf1405" name="Fanatic" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="978f921c-93a0-4f5d-b27c-24dd91a24f81" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b37960b6-e419-4e32-ad87-36e5ccc98d16" name="Login" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="51660b39-a804-4c97-8973-e58202383078" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0bb5980c-d5a4-405d-beed-91d4b3f6587b" />
+          </association>
+          <association Id="2e70237e-023e-4764-93ec-353b8e1ddac5" isDerived="false" sourceEndRoleName="Fanatic" targetEndRoleName="Opret Bruger" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9f386116-4268-48fc-a302-0c68725f6574" LastKnownName="Opret Bruger" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="be528f93-8953-4ec5-a356-21b6600c08d9" name="Fanatic" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aeda0a99-0e3a-4d54-b310-4b9bdf83f146" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="367c1cf9-5e94-4aec-858c-7d4a13470de8" name="Opret Bruger" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9cdc61b9-6c0a-4c47-a368-45986349789e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="300a438b-4822-42c5-bbc2-0528ba0b89db" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9f386116-4268-48fc-a302-0c68725f6574" name="Opret Bruger" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="afaa6dd7-2d16-4c84-9743-a9b8b339a191" />
+        <suppliersInternal>
+          <dependency Id="d932ac59-7d32-43fa-8525-51d31d67c9b7">
+            <subsystemMoniker Id="c4da9c4b-1692-4d6e-b751-7a8059e374f8" LastKnownName="Persistence" />
+            <elementDefinition Id="b47a873b-3cff-4245-aa54-679d29de2a5e" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6e8db232-c559-49a5-b126-9a9cd538d802" name="Statestik" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="db0fcddf-4c93-4f64-b6e1-8c6fdb6a8e21" />
+        <suppliersInternal>
+          <dependency Id="c98f0cb2-2baa-430f-88fe-cb57371a96fb">
+            <subsystemMoniker Id="c4da9c4b-1692-4d6e-b751-7a8059e374f8" LastKnownName="Persistence" />
+            <elementDefinition Id="d8040236-09c8-4b26-a785-ec965acfec7b" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="49f36da1-a4c6-4daa-b652-bdd3be181427" name="Login" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="08a8e861-1d40-4595-bae7-b9ce5662de43" />
+        <suppliersInternal>
+          <dependency Id="072f0372-063e-4593-8726-63a603fbbd43">
+            <subsystemMoniker Id="c4da9c4b-1692-4d6e-b751-7a8059e374f8" LastKnownName="Persistence" />
+            <elementDefinition Id="5b690d5b-ba53-4270-8776-f6a75bac91ca" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="eb4ede62-b259-4002-a59d-f7d42f5961d2" name="Formål med besøg" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7018512b-fd96-4e19-903a-d477b5825499" />
+        <suppliersInternal>
+          <dependency Id="6ee1f30f-cf72-4115-a27d-2705435c26dd">
+            <subsystemMoniker Id="c4da9c4b-1692-4d6e-b751-7a8059e374f8" LastKnownName="Persistence" />
+            <elementDefinition Id="f140018c-904d-4b1f-98b3-9b9b8379e4df" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="78f53a4c-b68d-4644-9deb-90f10cb84706" name="Gæste bruger" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3a8291bf-90ca-493a-961c-96cf0e3fcdb0" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="571c2a9d-cfa9-4a80-9594-e7c5a499f18f" name="Kunde" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="00f4eadd-454c-457d-826f-d599584ee4c0" />
+        <targetEnds>
+          <association Id="70771db7-b3cb-4dbd-aedc-9dc91ddd4c7e" isDerived="false" sourceEndRoleName="Kunde" targetEndRoleName="Gæste bruger" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="78f53a4c-b68d-4644-9deb-90f10cb84706" LastKnownName="Gæste bruger" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6ffd018f-6ce7-4d56-a886-73112aaf10ab" name="Kunde" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d81d5353-4745-4446-9008-29137a89c498" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="01d39e6b-c8d5-469d-a55f-a4affd214958" name="Gæste bruger" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2af6eda4-e2f3-4ff6-9695-f0fc059982c5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2d440001-9af2-4186-b66e-6ec39b12096d" />
+          </association>
+          <association Id="d6397fe1-4285-43df-862c-77dc007918c0" isDerived="false" sourceEndRoleName="Kunde" targetEndRoleName="Formål med besøg" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="eb4ede62-b259-4002-a59d-f7d42f5961d2" LastKnownName="Formål med besøg" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="789a41e1-e66c-4bfd-9732-c992095a39b7" name="Kunde" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3687c2d5-d9e2-4fd3-990b-ecab5996f0ee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3fa9b0e6-8b23-4127-8dea-477c2023c79f" name="Formål med besøg" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b5b15514-a402-48df-a416-cb7bf35405a8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6d67eab0-7e3a-4176-a17e-b78dcf31cb0d" />
+          </association>
+          <association Id="b11f04ea-911a-4dc3-aef3-a55201012b4d" isDerived="false" sourceEndRoleName="Kunde" targetEndRoleName="Opret Bruger" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9f386116-4268-48fc-a302-0c68725f6574" LastKnownName="Opret Bruger" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a021e574-4315-4fc3-a820-8eec96682307" name="Kunde" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8b973040-3563-4671-a28c-389d7ff775be" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="29fb1971-707b-438b-9b4a-f64e505cad13" name="Opret Bruger" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="41da2e8c-2a89-41fd-aa99-bac763a160c4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="16e88170-5888-4093-a7aa-a67a6dbe5e45" />
+          </association>
+          <association Id="4395025a-c663-4163-9e9c-eee13d154203" isDerived="false" sourceEndRoleName="Kunde" targetEndRoleName="Login" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="49f36da1-a4c6-4daa-b652-bdd3be181427" LastKnownName="Login" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5be70b84-bbfe-4848-b694-685da044dbf9" name="Kunde" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aeaa6912-480e-4208-bbb9-63a0b944c478" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ba0fc9cb-2a8b-4932-b917-761a5261f424" name="Login" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="90359d24-dcd3-4aab-9dfb-b2f47a62c6b0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fbd647fe-dce1-4834-885d-736f9cec8ebb" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="c4da9c4b-1692-4d6e-b751-7a8059e374f8" name="Persistence" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6b1ce764-2b47-4284-86d5-bc24aa64efdc" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="b74ed6ea-d25d-4792-a3a9-7be165afbeca" name="2SemesterEksamen">
+    <elementDefinition Id="b706a81c-dc28-4ae5-b68d-ab0b0c15a8d0" />
+  </package>
+</useCaseModelRoot>

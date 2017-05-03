@@ -1,0 +1,126 @@
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\ApplicationInsights.config
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\roslyn\csc.exe
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\roslyn\vbc.exe
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\FanaticProjekt.dll.config
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\FanaticProjekt.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\FanaticProjekt.pdb
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Antlr3.Runtime.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\EntityFramework.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\EntityFramework.SqlServer.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.Web.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Newtonsoft.Json.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Net.Http.Formatting.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.Helpers.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.Http.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.Http.WebHost.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.Mvc.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.Optimization.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.Razor.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.WebPages.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\WebGrease.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\EntityFramework.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\EntityFramework.SqlServer.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.Web.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Newtonsoft.Json.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Net.Http.Formatting.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.Helpers.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.Http.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.Http.WebHost.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.Mvc.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.Optimization.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.Razor.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.WebPages.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\bin\Antlr3.Runtime.pdb
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\obj\Debug\FanaticProjekt.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\obj\Debug\FanaticProjekt.pdb
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\SWC 2 semester\projekt\FanaticProjekt\FanaticProjekt\obj\Debug\FanaticProjekt.csprojResolveAssemblyReference.cache
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\ApplicationInsights.config
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\roslyn\csc.exe
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\roslyn\vbc.exe
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\FanaticProjekt.dll.config
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\FanaticProjekt.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\FanaticProjekt.pdb
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Antlr3.Runtime.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\EntityFramework.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\EntityFramework.SqlServer.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.Web.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Newtonsoft.Json.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Net.Http.Formatting.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.Helpers.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.Http.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.Http.WebHost.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.Mvc.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.Optimization.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.Razor.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.WebPages.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\WebGrease.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\EntityFramework.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\EntityFramework.SqlServer.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.Web.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Newtonsoft.Json.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Net.Http.Formatting.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.Helpers.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.Http.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.Http.WebHost.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.Mvc.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.Optimization.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.Razor.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.WebPages.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\bin\Antlr3.Runtime.pdb
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\obj\Debug\FanaticProjekt.csprojResolveAssemblyReference.cache
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\obj\Debug\FanaticProjekt.dll
+C:\Users\Nikolaj Bang\Desktop\løste c# opgaver og andet skolesjav\projektmappen\FanaticProjekt\FanaticProjekt\obj\Debug\FanaticProjekt.pdb

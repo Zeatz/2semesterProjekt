@@ -1,0 +1,56 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Fanatic_GUI.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ViewModel="using:Fanatic_GUI.ViewModel"
+    x:Class="Fanatic_GUI.View.AdminView"
+    mc:Ignorable="d">
+    <Page.DataContext>
+        <ViewModel:AdminViewModel/>
+    </Page.DataContext>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="168"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="button" Content="" Margin="274,40,175,41" Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition" BorderBrush="Black" Command="{Binding ToGraphPanelCommand}">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/StatistikAdmin.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_Copy" Content="" Margin="175,40,277,41" Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition" Grid.Column="1" BorderBrush="Black" FontSize="26.667">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/1465401248_add-user.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_Copy1" Content="" Margin="276,40,175,41" Grid.Row="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition" BorderBrush="Black">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/1465401320_delete-user.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_Copy2" Content="" Margin="175,40,276,41" Grid.Row="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition" Grid.Column="1" BorderBrush="Black">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/1465401476_search-user.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="LogoHomeButton" Content="" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="371" RenderTransformOrigin="1.558,0.589" Margin="-180,1,0,-3" Command="{Binding LogOutCommand}" Grid.Column="1" >
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/fanatic-logo-padded.png"/>
+            </Button.Background>
+        </Button>
+        <TextBlock x:Name="textBox" Margin="274,-20,160,0" TextWrapping="Wrap" Text="Søg Statistik" VerticalAlignment="Top" FontSize="32" Grid.Row="1"/>
+        <TextBlock x:Name="textBox1" Grid.Column="1" HorizontalAlignment="Left" Margin="175,-15,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Opret Bruger" VerticalAlignment="Top" FontSize="32" Width="212"/>
+        <TextBlock x:Name="textBox2" Margin="274,-13,115,0" Grid.Row="2" TextWrapping="Wrap" Text="Slet Bruger" VerticalAlignment="Top" d:LayoutOverrides="LeftPosition, RightPosition" FontSize="32" Height="53"/>
+        <TextBlock x:Name="textBox3" Grid.Column="1" HorizontalAlignment="Left" Margin="175,-15,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Søg Bruger" VerticalAlignment="Top" FontSize="32"/>
+        <AppBarButton x:Name="appBarButton" Icon="Back" FontSize="20"  Label="Tilbage og log ud" Margin="48,44,0,43" VerticalAlignment="Stretch" Width="126" d:LayoutOverrides="TopPosition, BottomPosition" Command="{Binding LogOutCommand}"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="MakeGraphCommand" />
+    <RootPropertyPathName Name="DateTimeOffsetTo" />
+    <RootPropertyPathName Name="DateTimeOffsetFrom" />
+    <RootPropertyPathName Name="FigurSpil" />
+    <RootPropertyPathName Name="Events" />
+    <RootPropertyPathName Name="LiveRollespil" />
+    <RootPropertyPathName Name="PenAndPaper" />
+    <RootPropertyPathName Name="Braetspil" />
+    <RootPropertyPathName Name="Kortspil" />
+    <RootPropertyPathName Name="DataSingleton" />
+    <RootPropertyPathName Name="CurrentGraph" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="RequestedTheme" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="FanaticAdminApp.ViewModel.AppViewModel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="Stretch" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Command" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Label" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontSize" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Date" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="IsChecked" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Syncfusion.UI.Xaml.Charts.SfChart">
+      <RootProperty Name="PrimaryAxis" />
+      <RootProperty Name="SecondaryAxis" />
+      <RootProperty Name="Series" />
+    </RootType>
+    <RootType FullName="Syncfusion.UI.Xaml.Charts.CategoryAxis">
+      <RootProperty Name="Header" />
+      <RootProperty Name="FontSize" />
+    </RootType>
+    <RootType FullName="Syncfusion.UI.Xaml.Charts.NumericalAxis">
+      <RootProperty Name="Header" />
+      <RootProperty Name="FontSize" />
+    </RootType>
+    <RootType FullName="Syncfusion.UI.Xaml.Charts.ColumnSeries">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="XBindingPath" />
+      <RootProperty Name="YBindingPath" />
+      <RootProperty Name="ShowTooltip" />
+    </RootType>
+    <RootType FullName="Syncfusion.UI.Xaml.Charts.ChartSeriesBase">
+      <RootMethod Name="GetSpacing" />
+      <RootMethod Name="SetSpacing" />
+    </RootType>
+    <RootType FullName="FanaticAdminApp.View.GraphPanel" />
+  </Roots.RootTypes>
+</Roots>

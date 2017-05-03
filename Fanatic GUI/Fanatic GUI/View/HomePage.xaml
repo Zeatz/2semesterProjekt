@@ -1,0 +1,42 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Fanatic_GUI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ViewModel="using:Fanatic_GUI.ViewModel"
+    x:Class="Fanatic_GUI.View.HomePage"
+    mc:Ignorable="d">
+
+    <Page.DataContext>
+        <ViewModel:FrontViewModel/>
+    </Page.DataContext>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="168"/>
+            <RowDefinition/>
+            <RowDefinition Height="77"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Login" Margin="10,1,0,4.75" VerticalAlignment="Stretch" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition" HorizontalAlignment="Stretch" Grid.Row="1" FontSize="48" FontWeight="Bold" Command="{Binding ToLoginPageCommand}" >
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/LoginKnapTekst.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Guest" Margin="5,1,6,4.75" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition" Grid.Column="1" Grid.Row="1" FontSize="48" FontFamily="VTCGoblinHand.ttf#VTCGoblinHand" FontWeight="Bold" Command="{Binding ToSelectionPageCommand}" >
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/GuestKnapTekst.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="LogoHomeButton" Content="" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="371" d:LayoutOverrides="HorizontalAlignment, TopPosition, BottomPosition" RenderTransformOrigin="1.558,0.589" Grid.Column="1" Margin="-180,1,0,-1">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/fanatic-logo-padded.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

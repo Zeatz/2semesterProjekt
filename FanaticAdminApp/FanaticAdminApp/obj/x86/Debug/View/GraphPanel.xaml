@@ -1,0 +1,52 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FanaticAdminApp.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ViewModel="using:FanaticAdminApp.ViewModel"
+    xmlns:charts="using:Syncfusion.UI.Xaml.Charts"
+    x:Class="FanaticAdminApp.View.GraphPanel"
+    mc:Ignorable="d">
+
+    <Page.DataContext>
+        <ViewModel:AppViewModel/>
+    </Page.DataContext>
+
+    <ScrollViewer>
+
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="960" Width="1440">
+            <Grid x:ConnectionId='1' x:Name="GraphGrid" HorizontalAlignment="Left" Height="530" Margin="415,290,0,0" VerticalAlignment="Top" Width="960">
+                <charts:SfChart>
+                    <charts:SfChart.PrimaryAxis>
+                        <charts:CategoryAxis Header="Interesser" FontSize="24"/>
+                    </charts:SfChart.PrimaryAxis>
+                    <charts:SfChart.SecondaryAxis>
+                        <charts:NumericalAxis Header="Antal Besøg" FontSize="24"/>
+                    </charts:SfChart.SecondaryAxis>
+                    <charts:ColumnSeries ItemsSource="{Binding DataSingleton.CurrentGraph}" 
+                                         XBindingPath="Name" YBindingPath="Count" ShowTooltip="True" Spacing="0.6"/>
+                </charts:SfChart>
+            </Grid>
+            <Grid Margin="45,300,1047,513">
+                <CheckBox x:ConnectionId='8' x:Name="KortspilBox" Content="KortSpil&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="{Binding Kortspil, Mode=TwoWay}" />
+                <CheckBox x:ConnectionId='9' x:Name="BraetspilBox" Content="Brætspil&#xA;" HorizontalAlignment="Left" Margin="225,0,0,0" VerticalAlignment="Top" IsChecked="{Binding Braetspil, Mode=TwoWay}"/>
+                <CheckBox x:ConnectionId='10' x:Name="PAndPBox" Content="Pen and Paper" HorizontalAlignment="Left" Margin="225,58,0,0" VerticalAlignment="Top" IsChecked="{Binding PenAndPaper, Mode=TwoWay}"/>
+                <CheckBox x:ConnectionId='11' x:Name="LiveRollespilBox" Content="Live Rollespil" HorizontalAlignment="Left" Margin="225,115,0,0" VerticalAlignment="Top" IsChecked="{Binding LiveRollespil, Mode=TwoWay}"/>
+                <CheckBox x:ConnectionId='12' x:Name="EventsBox" Content="Events" HorizontalAlignment="Left" Margin="0,58,0,0" VerticalAlignment="Top" IsChecked="{Binding Events, Mode=TwoWay}"/>
+                <CheckBox x:ConnectionId='13' x:Name="FigurspilBox" Content="Figurspil" HorizontalAlignment="Left" Margin="0,115,0,0" VerticalAlignment="Top" IsChecked="{Binding FigurSpil, Mode=TwoWay}"/>
+            </Grid>
+            <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="100" Margin="615,65,0,0" VerticalAlignment="Top" Width="100"/>
+            <Image x:ConnectionId='3' x:Name="image1" Height="170" Margin="470,30,0,0" Width="470" Source="ms-appx:///Assets/fanatic-logo-padded.png" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="Fill"/>
+            <StackPanel Margin="45,515,1099,311" Orientation="Vertical">
+                <TextBlock x:ConnectionId='6' x:Name="FraDato" TextWrapping="Wrap" Text="Fra dato" FontSize="20"/>
+                <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Date="{Binding DateTimeOffsetFrom, Mode=TwoWay}"/>
+                <TextBlock x:ConnectionId='7' x:Name="TilDato" TextWrapping="Wrap" Text="Til dato" FontSize="20" Margin="0,15,0,0"/>
+                <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Date="{Binding DateTimeOffsetTo, Mode=TwoWay}"/>
+            </StackPanel>
+            <AppBarButton x:ConnectionId='4' x:Name="LavGrafKnap" Command="{Binding MakeGraphCommand}"  HorizontalAlignment="Left" Icon="Accept" Label="Lav Graf" Margin="115,649,0,0" VerticalAlignment="Top" Height="65" Width="139"/>
+            <TextBlock x:ConnectionId='5' x:Name="Kategorier" HorizontalAlignment="Left" Margin="115,251,0,0" TextWrapping="Wrap" Text="Vælg Kategori" VerticalAlignment="Top" FontSize="28"/>
+        </Grid>
+    </ScrollViewer>
+</Page>
+
